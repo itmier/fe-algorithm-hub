@@ -8,7 +8,7 @@
  * 有一些非常简单的方法可以解决此问题，但是我鼓励您尝试并尽可能发挥创造力。
  * 祝好运！
  */
-
+// 方案1
 function fourSeven(val) {
   const a = {
     4: 7,
@@ -22,6 +22,7 @@ fourSeven(4)
 fourSeven(7)
 fourSeven(100)
 
+// 方案2
 function fourSeven2(val) {
   while (val === 4) {
     console.log(7)
